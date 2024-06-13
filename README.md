@@ -6,3 +6,8 @@ We specifically looked at the extraction of three features (1) Complete problem 
 
 We randomly selected educational youtube videos along with its audio transcript. The curated dataset of the video and audio transcript can be found in LearnLab Summer School Proj Dataset.xlsx
 
+The code to prompt LLM using LangChain can be found in the Jupyter Notebook "LearnLan.ipynb"
+
+To measure how reliable LLM generated metadata from the video were, two researchers manually tagged the "question” “context” and “solutions” properties returned by LLMs as either correct or incorrect. Based on Cohen’s Kappa coefficient, the inter-coder reliability for this coding showed κ = 0.60.
+
+We found that LLMs stuggled from accurately extracting the context of a question posed by the presenter in the video only using its audio transcript. We discuss the errors in LLM generations in our presentation "LearnLab EDM Track Presentation.pdf"
