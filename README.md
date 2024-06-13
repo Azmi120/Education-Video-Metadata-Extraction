@@ -1,1 +1,1 @@
-# Education-Video-Metadata-Extraction
+# Educational-Video-Metadata-Extraction
